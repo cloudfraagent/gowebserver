@@ -7,5 +7,13 @@ merge base, the "after" images from the pull request head, so the pairs
 are the same run of the same fixtures. Each pair also has a `-band`
 crop of the bottom of the stage.
 
+The `phone-top-*` images answer the review comment about phones, so they
+are a second pair: `phone-top-before.png` is the head of the pull
+request as it stood when that comment came in, and `phone-top-after.png`
+and `phone-top-after-faded.png` are the head after it. Both are a 390 by
+844 touch screen on the same photo, and the strip sits at the top edge
+in both; what changes is whether a phone can see it. The faded shot is
+the same gallery three seconds later, once the bar has gone away.
+
 This branch only hosts images for the pull request and can be deleted
 once it is merged.
